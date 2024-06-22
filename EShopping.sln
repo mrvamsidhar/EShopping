@@ -7,13 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{37
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{D6C217F6-1195-4A9E-9574-0AF2DDB221B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{5D26284B-C877-45CF-B3AC-5103182B35BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{5D26284B-C877-45CF-B3AC-5103182B35BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Application", "Catalog.Application\Catalog.Application.csproj", "{25A95607-D340-4124-BB85-4ACBD3049B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Application", "Catalog.Application\Catalog.Application.csproj", "{25A95607-D340-4124-BB85-4ACBD3049B4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Core", "Catalog.Core\Catalog.Core.csproj", "{5E6CA779-79AA-4788-8E42-BE9946951202}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Core", "Catalog.Core\Catalog.Core.csproj", "{5E6CA779-79AA-4788-8E42-BE9946951202}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure", "Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{66716A06-3C2A-4D91-836F-08E2C905092B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Infrastructure", "Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{66716A06-3C2A-4D91-836F-08E2C905092B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{31655334-CAA9-4842-B337-792A3218648D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
