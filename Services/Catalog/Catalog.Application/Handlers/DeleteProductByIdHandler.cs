@@ -1,4 +1,5 @@
 ﻿using Catalog.Application.Commands;
+using Catalog.Application.Queries;
 using Catalog.Core.Repositories;
 using MediatR;
 using System;
@@ -8,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Catalog.Application.Handlers;
-public class DeleteProductByIdHandler : IRequestHandler<DeleteProductByIdCommand, bool>
+public class DeleteProductByIdHandler : IRequestHandler<DeleteProductByIdQuery, bool>
 {
     private readonly IProductRepository _productRepository;
 
@@ -16,7 +17,7 @@ public class DeleteProductByIdHandler : IRequestHandler<DeleteProductByIdCommand
     {
         _productRepository = productRepository;
     }
-    public async Task<bool> Handle(DeleteProductByIdCommand request, CancellationToken cancellationToken)
+    public async Task<bool> Handle(DeleteProductByIdQuery request, CancellationToken cancellationToken)
     {
         return await _productRepository.DeleteProduct(request.Id);
     }

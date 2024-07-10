@@ -5,13 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Catalog.Application.Commands;
-public class DeleteProductByIdCommand : IRequest<bool>
+namespace Catalog.Application.Queries;
+
+public class DeleteProductByIdQuery : IRequest<bool>
 {
     public string Id { get; set; }
 
-    public DeleteProductByIdCommand(string id)
+    public DeleteProductByIdQuery(string id)
     {
         Id = id;
     }
 }
+
