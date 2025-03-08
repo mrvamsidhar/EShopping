@@ -28,8 +28,8 @@ namespace Catalog.Application.Handlers
                 Name = request.Name,
                 Price = request.Price,
                 Summary = request.Summary,
-                Brand = request.Brand,
-                Type = request.Type
+                Brands = request.Brands,
+                Types = request.Types
             });
             return productEntity;
         }

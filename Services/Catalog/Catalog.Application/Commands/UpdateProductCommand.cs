@@ -21,7 +21,7 @@ namespace Catalog.Application.Commands
         public string Description { get; set; }
         public string ImageFile { get; set; }
         public decimal Price { get; set; }
-        public ProductBrand Brand { get; set; }
-        public ProductType Type { get; set; }
+        public ProductBrand Brands { get; set; }
+        public ProductType Types { get; set; }
     }
 }
